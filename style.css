@@ -1,0 +1,21 @@
+.biodata {
+    margin-top: 15px;
+    color: gray;
+    font-size: 18px;
+}
+
+.biodataisi {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.footer {
+    width: 2500px;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
