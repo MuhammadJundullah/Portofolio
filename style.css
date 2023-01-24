@@ -9,17 +9,13 @@
 .biodata {
     margin-top: 15px;
     color: gray;
-    font-size: 18px;
+    font-size: 100%;
 }
 
 .biodataisi {
     font-weight: bold;
     margin-top: 15px;
-    font-size: 18px;
-}
-
-.footer {
-    width: 2500px;
+    font-size: 100%;
 }
 
 .copyright {
