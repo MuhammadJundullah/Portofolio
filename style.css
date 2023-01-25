@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+.sosmed :hover {
+  opacity: 0.6;
+}
+
+.foto {
+  box-shadow: 3px 3px 25px gray;
+}
+
 .biodata {
     margin-top: 15px;
     color: gray;
@@ -162,12 +170,4 @@ body {
 
 .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   transform: rotate(-45deg);
-}
-
-.nav-container input[type="checkbox"]:checked ~ .logo {
-  filter: blur(10px);
-}
-
-.nav-container input[type="checkbox"]:checked ~ body {
-  filter: blur(10px);
 }
