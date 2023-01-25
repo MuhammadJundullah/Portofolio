@@ -82,6 +82,7 @@ body {
   z-index: 5;
   opacity: 0;
   cursor: pointer;
+  filter: blur(10px);
 }
 
 .nav-container .hamburger-lines {
@@ -163,6 +164,10 @@ body {
   transform: rotate(-45deg);
 }
 
-.nav-container input[type="checkbox"]:checked ~ .logo{
-  display: none;
+.nav-container input[type="checkbox"]:checked ~ .logo {
+  filter: blur(10px);
+}
+
+.nav-container input[type="checkbox"]:checked ~ body {
+  filter: blur(10px);
 }
