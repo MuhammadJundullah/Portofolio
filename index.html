@@ -61,7 +61,7 @@
     </section>
     <!-- Akhir Jumbotron -->
 
-    <!-- About -->
+    <!-- About Me -->
     <section id="about" style="background-color: lightgray">
       <div class="container" style="padding-bottom: 10rem">
         <div class="row text-center mb-3 mt-5">
@@ -115,7 +115,7 @@
               <div class="card-body">
                 <h5 class="card-title">Portofolio 1</h5>
                 <p class="card-text">Static website using HTML, CSS & Bootstrap 5 CSS Famework</p>
-                <a href="old_porto/index.html" class="btn btn-secondary">Go somewhere</a>
+                <a href="portofolio_1/" class="btn btn-secondary">Go somewhere</a>
               </div>
               <div class="card-footer text-muted">2 days ago</div>
             </div>
@@ -209,26 +209,23 @@
 
     <!-- Footer -->
     <p style="background-color: #d3d3d3; margin-bottom: 0px; padding-bottom: 1rem" class="text-secondary small text-center">© 2024 Ahmad. All right reserved</p>
-    <!-- Akhir Footer -->
 
     <!-- Js bootstrap 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!-- smtp js -->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+
     <script>
-      function sendEmail() {
-        Email.send({
-          Host : "smtp.elasticemail.com",
-          Username : "sayidmuhammad15@gmail.com",
-          Password : "A305A336162373E0380BCE57C4D9B93B9B1E",
-          To : 'sayidmuhammad15@gmail.com',
-          From : document.getElementById("email").value,
-          Subject : "This is the subject",
-          Body : "And this is the body"
-      }).then(
-        message => alert(message)
-      );
+      Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "sayidmuhammad15@gmail.com",
+        Password: "B05C8272A55B6BF621FE757156A17AAD9E1C",
+        To: "sayidmuhammad15@gmail.com",
+        From: document.getElementById("email").value,
+        Subject: "This is the subject",
+        Body: "And this is the body",
+      }).then((message) => alert(message));
     </script>
   </body>
 </html>
