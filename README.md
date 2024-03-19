@@ -1,4 +1,4 @@
-Simple Portofolio dengan :
+Portofolio dengan :
 
 1. HTML
 2. Vanilla CSS
