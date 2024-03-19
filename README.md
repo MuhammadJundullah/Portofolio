@@ -3,6 +3,7 @@ Portofolio dengan :
 1. HTML
 2. Vanilla CSS
 3. Bootsrtrap 5 CSS framework
+4. javascript
 
 Struktur Portofolio :
 
