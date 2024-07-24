@@ -91,9 +91,15 @@
         </div>
         <div class="row text-center fs-5 justify-content-around mb-5">
           <div class="col-md-10 fw-light">
+<<<<<<< HEAD
               <p>I am a 4th-semester Informatics Engineering student with a strong passion for data analysis and processing. My expertise includes data manipulation using Microsoft Excel, Python, SQL queries, and Tableau for visualization, alongside employing statistical techniques to extract and present meaningful insights from data. These skills enable me to interpret data effectively and support informed decision-making.</p>
               <p>In addition, I am proficient in creating simple web applications using frameworks like Bootstrap and Tailwind CSS. My solid understanding of responsive design and UX/UI principles allows me to develop web interfaces that are both visually appealing and highly functional.</p>
               <p>I am eager to further hone my analytical skills through internship opportunities in a professional setting. I am confident that this practical experience will broaden my perspective and deepen my understanding of how data analysis can be leveraged to address real-world challenges in the industry.</p>
+=======
+              <p class="fs-6 fs-md-5 fs-lg-4">I am a 4th-semester Informatics Engineering student with a strong passion for data analysis and processing. My expertise includes data manipulation using Microsoft Excel, Python, SQL queries, and Tableau for visualization, alongside employing statistical techniques to extract and present meaningful insights from data. These skills enable me to interpret data effectively and support informed decision-making.</p>
+              <p class="fs-6 fs-md-5 fs-lg-4">In addition, I am proficient in creating simple web applications using frameworks like Bootstrap and Tailwind CSS. My solid understanding of responsive design and UX/UI principles allows me to develop web interfaces that are both visually appealing and highly functional.</p>
+              <p class="fs-6 fs-md-5 fs-lg-4">I am eager to further hone my analytical skills through internship opportunities in a professional setting. I am confident that this practical experience will broaden my perspective and deepen my understanding of how data analysis can be leveraged to address real-world challenges in the industry.</p>
+>>>>>>> c8fbcdd (update responsivity)
             <!-- Instagram -->
             <a class="sosmed" href="https://instagram.com/saed.m_" target="_blank"><img src="img/instagram.svg" alt="instagram" style="height: 30px; margin: 5%" /></a>
             <!-- twitter -->
@@ -135,6 +141,7 @@
           <img src="img/hello3.svg" alt="mantap" style="width: 500px;">
         </div>
 
+<<<<<<< HEAD
         <!-- card project baris ke satu -->
         <div class="row m-3 fw-light">
           <div class="col-4">
@@ -212,6 +219,78 @@
       </svg>
     </section>
     <!-- Akhir Project -->
+=======
+       <!-- Card Projects -->
+<div class="container mt-4">
+    <!-- Baris Pertama -->
+    <div class="row g-3">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card animate">
+                <div class="card-body">
+                    <h5 class="card-title">Website Pengelola Data Mahasiswa</h5>
+                    <p class="card-text">Web Development.</p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <a class="btn btn-primary" href="https://github.com/MuhammadJundullah/Belajar_PHP/tree/main/Web%20Pengelola%20Data%20Mahasiswa" target="_blank">Source Code</a>
+                        <a class="btn btn-success" href="http://data-mahasiswa.portofolio.great-site.net">Visit Site</a>
+                    </div>  
+                </div>  
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card animate">
+                <div class="card-body">
+                    <h5 class="card-title">Website Pengelola Data Prodi</h5>
+                    <p class="card-text">Web Development.</p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <a class="btn btn-primary" href="https://github.com/MuhammadJundullah/Belajar_PHP/tree/main/Web%20Pengelola%20Data%20Prodi%20v2" target="_blank">Source Code</a>
+                        <a class="btn btn-success" href="http://manajemen-prodi.portofolio.great-site.net/">Visit Site</a>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card animate mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">MSIB Vacancy Analysis</h5>
+                    <p class="card-text">Data Analyst.</p>
+                    <a href="https://github.com/MuhammadJundullah/Data-Analysis/blob/main/MSIB%20Vacancy%20Analysis/Mitra_MSIB_Analytics.ipynb" target="_blank" class="btn btn-primary">Notebook</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Baris Kedua -->
+    <div class="row g-3">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card animate">
+                <div class="card-body">
+                    <h5 class="card-title">Car Sales Analysis</h5>
+                    <p class="card-text">Data Analyst.</p>
+                    <a href="https://github.com/MuhammadJundullah/Data-Analysis/blob/main/Car%20Sales%20Analysis/Car_sales_cleaning.ipynb" target="_blank" class="btn btn-primary">Notebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card animate">
+                <div class="card-body">
+                    <h5 class="card-title">E-Commerse Customer Analysis</h5>
+                    <p class="card-text">Data Analyst.</p>
+                    <a href="https://github.com/MuhammadJundullah/Data-Analysis/blob/main/E-Commerse%20Customer%20Analysis/Customers_Analysis.ipynb" target="_blank" class="btn btn-primary">Notebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card animate">
+                <div class="card-body">
+                    <h5 class="card-title">Car Efficientest Analytics</h5>
+                    <p class="card-text">Data Analyst.</p>
+                    <a href="https://github.com/MuhammadJundullah/Data-Analysis/blob/main/E-Commerse%20Customer%20Analysis/Customers_Analysis.ipynb" target="_blank" class="btn btn-primary">Notebook</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+>>>>>>> c8fbcdd (update responsivity)
 
     <!-- Certificate Section -->
     <section id="certificate" class="section-hidden bg-light">
@@ -228,8 +307,13 @@
           </div>
         </div>
         <div class="row justify-content-center">
+<<<<<<< HEAD
           <div class="col-md-4 mt-3">
             <div class="card mx-auto animate" style="width: 18rem;">
+=======
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card mx-auto animate mb-3" style="width: 18rem;">
+>>>>>>> c8fbcdd (update responsivity)
               <img src="img/Certificate/dqlab_py.png" class="card-img-top" alt="Dqlab Certificate">
               <div class="card-body">
                 <p class="card-text fw-light">Introduction to Data Science with Python. <br><hr>
@@ -237,8 +321,13 @@
               </div>
             </div>
           </div>
+<<<<<<< HEAD
           <div class="col-md-4 mt-3">
             <div class="card mx-auto animate" style="width: 18rem;">
+=======
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card mx-auto animate mb-3" style="width: 18rem;">
+>>>>>>> c8fbcdd (update responsivity)
               <img src="img/Certificate/dqlab_r.png" class="card-img-top" alt="Dqlab Certificate">
               <div class="card-body">
                 <p class="card-text fw-light">Introduction to Data Science with R. <br><hr>
@@ -246,8 +335,13 @@
               </div>
             </div>
           </div>
+<<<<<<< HEAD
           <div class="col-md-4 mt-3">
             <div class="card mx-auto animate" style="width: 18rem;">
+=======
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card mx-auto animate mb-3" style="width: 18rem;">
+>>>>>>> c8fbcdd (update responsivity)
               <img src="img/Certificate/pmm.png" class="card-img-top" alt="Dqlab Certificate">
               <div class="card-body">
                 <p class="card-text fw-light">Pertukaran Mahasiswa Merdeka Batch 3. <br><hr>
@@ -283,8 +377,13 @@
           </div>
         </div>
           <div class="row justify-content-center">
+<<<<<<< HEAD
             <div class="col-md-6 mt-3">
               <div class="card mx-auto animate" style="width: 18rem;">
+=======
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+              <div class="card mx-auto animate mb-3" style="width: 18rem;">
+>>>>>>> c8fbcdd (update responsivity)
                 <img src="img/unimal.png" class="card-img-top" alt="Dqlab Certificate">
                 <div class="card-body">
                   <hr>
@@ -294,8 +393,13 @@
                 </div>
               </div>
             </div>
+<<<<<<< HEAD
             <div class="col-md-6 mt-3">
               <div class="card mx-auto animate" style="width: 18rem;" class="animate">
+=======
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+              <div class="card mx-auto animate mb-3" style="width: 18rem;" class="animate">
+>>>>>>> c8fbcdd (update responsivity)
                 <img src="img/fourta.jpeg" class="card-img-top" alt="Dqlab Certificate">
                 <div class="card-body">
                   <hr>
