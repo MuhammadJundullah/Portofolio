@@ -1,18 +1,5 @@
 .jumbotron {
   padding-top: 8rem;
-  background-color: #e2edff;
-}
-
-#projects {
-  background-color: #e2edff;
-}
-
-#education {
-  background-color: #e2edff;
-}
-
-#contact {
-  background-color: #e2edff;
 }
 
 section {
@@ -30,7 +17,7 @@ section {
 }
 
 
-/* untuk hover navbar link */
+/* hover navbar link */
 .nav-link {
   position: relative;
   transition: color 0.3s ease;
@@ -42,7 +29,7 @@ section {
   height: 2px;
   display: block;
   margin: auto;
-  background: #000; /* Change the color of the underline here */
+  background: #000; 
   transition: width 0.3s ease, left 0.3s ease;
   bottom: 0;
   left: 50%;
@@ -52,6 +39,7 @@ section {
   left: 0;
 }
 
+/* ketika di mobile tidak ada hover */
 @media (max-width: 767px) {
   .nav-link:hover::after {
     width: 0;
@@ -59,16 +47,16 @@ section {
   }
 }
 
-/* CSS untuk hover card */
+/* hover card */
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 .card:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* CSS Animation */
+/* animasi card ketika di viewport */
 @keyframes fadeInUp {
   from {
     transform: translateY(20px);
@@ -89,10 +77,40 @@ section {
   animation: fadeInUp 0.6s forwards;
 }
 
-.ahmad {
-  color: rgb(255, 127, 127);
+/* buat icon scroll ke atas */
+.content {
+  height: 2000px; 
+  padding: 20px;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: darkgray; 
+  color: white; 
+  border-radius: 20%;
+  padding: 10px; 
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+  z-index: 1000; 
+}
+
+.back-to-top.show {
+  opacity: 1; 
+}
+
+.back-to-top:hover {
+  background-color: lightgray; 
+}
+
+.bi-arrow-up-circle-fill {
+  width: 24px;
+  height: 24px;
+}
 
 
 
