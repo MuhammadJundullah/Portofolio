@@ -11,5 +11,5 @@ Struktur Portofolio :
 2. jumbotron
 3. section about me
 4. daftar projects
-5. section contact menggunakan protokol smtp.js sebagai pengiriman message
+5. education
 6. footer
