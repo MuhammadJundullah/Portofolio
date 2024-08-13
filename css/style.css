@@ -16,7 +16,6 @@ section {
   margin-left: 20px;
 }
 
-
 /* hover navbar link */
 .nav-link {
   position: relative;
@@ -37,6 +36,10 @@ section {
 .nav-link:hover::after {
   width: 100%;
   left: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* ketika di mobile tidak ada hover */

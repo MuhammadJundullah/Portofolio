@@ -104,7 +104,7 @@ mysqli_close($conn);
 
       <!-- get sayid's resume -->
       <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary"><a class="icon-link icon-link-hover" style="color: aliceblue; text-decoration: none;" href="https://drive.google.com/file/d/1qHowuoxpSNGm1oRahEL2WTTPM3j8hc2p/view?usp=share_link" target="_blank">Get Sayid's CV &raquo</a></button>
+        <button type="button" class="btn btn-secondary"><a class="icon-link icon-link-hover" style="color: aliceblue; text-decoration: none;" href="https://drive.google.com/file/d/1lwsONfgXmJMU714ltBliS5EJn3D04Nzi/view?usp=share_link" target="_blank">Get Sayid's CV &raquo</a></button>
         <!-- <button type="button" class="btn btn-success"><a class="icon-link icon-link-hover" style="color: aliceblue; text-decoration: none;" href="https://api.whatsapp.com/send?phone=6285766267769&text=Halo,%20apakah%20bisa%20membuat%20wesite%20untuk%20saya%20?">Whatsapp</a></button> -->
       </div>
 
@@ -181,17 +181,14 @@ mysqli_close($conn);
        <!-- Card Projects -->
 
       <div class="container mt-4">
-        <!-- Baris Pertama -->
+        <!-- baris pertama -->
         <div class="row g-3">
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
                 <div class="card animate">
-                    <div class="card-body">
+                    <div class="card-body" >
                         <h5 class="card-title">Website Pengelola Data Mahasiswa</h5>
-                        <p class="card-text">Web Development.</p>
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                            <a class="btn btn-primary" href="https://github.com/MuhammadJundullah/Belajar_PHP/tree/main/Web%20Pengelola%20Data%20Mahasiswa" target="_blank">Source Code</a>
-                            <a class="btn btn-success" href="http://data-mahasiswa.portofolio.great-site.net">Visit Site</a>
-                        </div>  
+                        <p class="card-text fw-light">Web Development.</p>
+                        <a class="text-success" href="https://github.com/MuhammadJundullah/Belajar_PHP/tree/main/Web%20Pengelola%20Data%20Mahasiswa" target="_blank">Source Code</a> | <a class="text-success" href="http://data-mahasiswa.portofolio.great-site.net" target="_blank">Visit Site</a>
                     </div>  
                 </div>
             </div>
@@ -199,11 +196,8 @@ mysqli_close($conn);
                 <div class="card animate">
                     <div class="card-body">
                         <h5 class="card-title">Website Pengelola Data Prodi</h5>
-                        <p class="card-text">Web Development.</p>
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                            <a class="btn btn-primary" href="https://github.com/MuhammadJundullah/Belajar_PHP/tree/main/Web%20Pengelola%20Data%20Prodi%20v2" target="_blank">Source Code</a>
-                            <a class="btn btn-success" href="http://manajemen-prodi.portofolio.great-site.net/">Visit Site</a>
-                        </div>   
+                        <p class="card-tex fw-light">Web Development.</p>
+                        <a class="text-success" href="https://github.com/MuhammadJundullah/Belajar_PHP/tree/main/Web%20Pengelola%20Data%20Prodi%20v2" target="_blank">Source Code</a> | <a class="text-success" href="http://manajemen-prodi.portofolio.great-site.net" target="_blank">Visit Site</a>
                     </div>
                 </div>
             </div>
@@ -211,22 +205,23 @@ mysqli_close($conn);
                 <div class="card animate mb-3">
                     <div class="card-body">
                         <h5 class="card-title">MSIB Vacancy Analysis</h5>
-                        <p class="card-text">Data Analyst.</p>
-                        <a href="https://github.com/MuhammadJundullah/Data-Analysis/blob/main/MSIB%20Vacancy%20Analysis/Mitra_MSIB_Analytics.ipynb" target="_blank" class="btn btn-primary">Notebook</a>
+                        <p class="card-text fw-light">Data Analyst.</p>
+                        <a class="text-success" href="https://github.com/MuhammadJundullah/Data-Analysis/tree/main/MSIB%20Vacancy%20Analysis" target="_blank">Notebook</a> 
                     </div>
                 </div>
             </div>
         </div>
+        <!-- akhir baris pertama -->
 
-        <!-- Baris Kedua -->
+        <!-- baris kedua -->
         <div class="row g-3">
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
                 <div class="card animate">
                     <div class="card-body">
                         <h5 class="card-title">Car Sales Analysis</h5>
                         <p class="card-text">Data Analyst.</p>
-                        <a href="https://github.com/MuhammadJundullah/Data-Analysis/blob/main/Car%20Sales%20Analysis/Car_Sales_Report.ipynb" target="_blank" class="btn btn-primary">Notebook</a>
-                    </div>
+                        <a class="text-success" href="https://github.com/MuhammadJundullah/Data-Analysis/tree/main/Car%20Sales%20Analysis" target="_blank">Notebook</a> 
+                    </div>  
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
@@ -234,20 +229,55 @@ mysqli_close($conn);
                     <div class="card-body">
                         <h5 class="card-title">E-Commerce Customer Analysis</h5>
                         <p class="card-text">Data Analyst.</p>
-                        <a href="https://github.com/MuhammadJundullah/Data-Analysis/blob/main/E-Commerse%20Customer%20Analysis/Customers_Analysis.ipynb" target="_blank" class="btn btn-primary">Notebook</a>
+                        <a class="text-success" href="https://github.com/MuhammadJundullah/Data-Analysis/tree/main/E-Commerse%20Customer%20Analysis" target="_blank">Notebook</a> 
                     </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="card animate mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Car Efficientest Analytics</h5>
+                        <p class="card-text">Data Analyst.</p>
+                        <a class="text-success" href="https://github.com/MuhammadJundullah/Data-Analysis/tree/main/Car%20Efficientest%20Analytics" target="_blank" class="btn btn-primary">Notebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- akhir baris kedua -->
+
+        <!-- baris ketiga -->
+        <div class="row g-3 justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="card animate">
+                    <div class="card-body">
+                        <h5 class="card-title">Indonesian Market Car Analysis</h5>
+                        <p class="card-text">Data Analyst.</p>
+                        <a class="text-success" href="https://github.com/MuhammadJundullah/Data-Analysis/tree/main/Car%20Sales%20Analysis" target="_blank">Source Code</a>
+                    </div>  
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
                 <div class="card animate">
                     <div class="card-body">
-                        <h5 class="card-title">Car Efficientest Analytics</h5>
+                        <h5 class="card-title">Car Fuel Consumption Analysis</h5>
                         <p class="card-text">Data Analyst.</p>
-                        <a href="https://github.com/MuhammadJundullah/Data-Analysis/blob/main/E-Commerse%20Customer%20Analysis/Customers_Analysis.ipynb" target="_blank" class="btn btn-primary">Notebook</a>
+                            <a class="text-success" href="https://github.com/MuhammadJundullah/Data-Analysis/tree/main/E-Commerse%20Customer%20Analysis" target="_blank">Source Code</a>
+                        </div>   
                     </div>
                 </div>
             </div>
+            <!-- <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <div class="card animate mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Car Efficientest Analytics</h5>
+                        <p class="card-text">Data Analyst.</p>
+                        <a href="https://github.com/MuhammadJundullah/Data-Analysis/tree/main/Car%20Efficientest%20Analytics" target="_blank" class="btn btn-primary">Notebook</a>
+                    </div>
+                </div>
+            </div> -->
         </div>
+        <!-- akhir baris ketiga -->
+
       </div>
     </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -272,6 +302,8 @@ mysqli_close($conn);
             </h2>
           </div>
         </div>
+
+        <!-- baris pertama -->
         <div class="row justify-content-center">
           <div class="col-12 col-sm-6 col-md-4 col-lg-4">
             <div class="card mx-auto animate mb-3" style="width: 18rem;">
@@ -301,6 +333,22 @@ mysqli_close($conn);
             </div>
           </div>
         </div>
+        <!-- akhir baris pertama -->
+
+        <!-- baris kedua -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card mx-auto animate mb-3" style="width: 18rem;">
+              <img src="img/Certificate/inpro.png" class="card-img-top" alt="Product Innovation Certificate">
+              <div class="card-body">
+                <p class="card-text fw-light">3rd Place in Product Innovation Competition. <br><hr>
+                <span class="text-secondary fst-italic">2019</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- akhir baris kedua -->
+
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -333,9 +381,9 @@ mysqli_close($conn);
                 <img src="img/unimal.png" class="card-img-top" alt="Dqlab Certificate">
                 <div class="card-body">
                   <hr>
-                  <p class="fw-bold">Universitas Malikussaleh</p>
-                  <p class="fst-italic">Sarjana Teknik Informatika</p>
-                  <p class="fw-light">Juli 2022 - Saat ini (Semester 4)</p>
+                  <p class="fw-bold">Malikussaleh University</p>
+                  <p class="fst-italic">Bachelor's Degree Informatics Engineering</p>
+                  <p class="fw-light">Juli 2022 - Present</p>
                 </div>
               </div>
             </div>
@@ -345,7 +393,7 @@ mysqli_close($conn);
                 <div class="card-body">
                   <hr>
                   <p class="fw-bold">SMA Negeri 4 Takengon</p>
-                  <p class="fst-italic">Jurusan Mipa</p>
+                  <p class="fst-italic">Natural Sciences Major</p>
                   <p class="fw-light">Juli 2019 - juli 2022</p>
                 </div>
               </div>
