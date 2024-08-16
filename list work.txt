@@ -1,6 +1,0 @@
-list perubahan : 
-- update jenis font judul section
-- hapus logo di judul section
-- menyesuaikan layout item certificate
-- hapus gambar di section project 
-- kalau bisa menambahkan shadow di setiap background per sectionnya 
